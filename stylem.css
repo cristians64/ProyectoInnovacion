@@ -1,0 +1,43 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: #ebd5d5;
+}
+
+.page-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.navbar {
+    background-color: #5e2f6b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgb(227, 205, 232);
+}
+
+
+blockquote {
+    font-style: italic;
+    padding: 20px;
+    background: #f8f9fa;
+    border-inline-start: 4px solid #007bff;
+}
+
+.img-fluid {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#map {
+    inline-size: 100%;
+    block-size: 300px;
+}
+
+
+
