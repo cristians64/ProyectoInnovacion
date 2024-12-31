@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Guardería NEE - Información y material de apoyo para el aprendizaje.">
-    <title>Dotación superior - NEE</title>
+    <title>Situaciones de vulnerabilidad - NEE</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome para íconos -->
@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand text-white" href="index.html">Vinculación</a>
+            <a class="navbar-brand text-white" href="/index.html">Vinculación</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,29 +34,43 @@
                             NEE No Asociadas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/NEE No asociadas/NEE1.html">Dificultades del aprendizaje</a></li>
-                            <li><a class="dropdown-item" href="/NEE No asociadas/NEE2.html">Trastornos del comportamiento</a></li>
-                            <li><a class="dropdown-item" href="/NEE No asociadas/NEE3.html">Dotación superior</a></li>
-                            <li><a class="dropdown-item" href="/NEE No asociadas/NEE4.html">Situaciones de vulnerabilidad</a></li>
+                            <li><a class="dropdown-item" href="/NEENA/NEE1.html">Dificultades del aprendizaje</a></li>
+                            <li><a class="dropdown-item" href="/NEENA/NEE2.html">Trastornos del comportamiento</a></li>
+                            <li><a class="dropdown-item" href="/NEENA/NEE3.html">Dotación superior</a></li>
+                            <li><a class="dropdown-item" href="/NEENA/NEE4.html">Situaciones de vulnerabilidad</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/Estrategias.html">Estrategias de Intervención</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="/estrategias.html" id="navbarDropdown"
+                            role="button" aria-expanded="false">
+                            Estrategias de Intervención
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/EDI/TT1.html">Dislexia</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT2.html">Disgrafía</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT3.html">Disortografía</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT5.html">Discalculia</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT4.html">Disfasia</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT6.html">TDAH Inatento</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT7.html">TDAH Hiperactivo - Impulsivo y Mixto</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT9.html">Trastorno Negativista Desafiante</a></li>
+                            <li><a class="dropdown-item" href="/EDI/TT10.html">Dotación Superior</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/material-apoyo.html">Material de Apoyo</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="neeNoAsociadas.html" id="navbarDropdown"
+                        <a class="nav-link dropdown-toggle text-white" href="/neeNoAsociadas.html" id="navbarDropdown"
                             role="button" aria-expanded="false">
                             Biblioteca
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="materiales-didacticos.html">Materiales didácticos para
+                            <li><a class="dropdown-item" href="/materiales-didacticos.html">Materiales didácticos para
                                     las nee no asociadas</a></li>
-                            <li><a class="dropdown-item" href="tutorial-uso.html">Tutorial de uso del
+                            <li><a class="dropdown-item" href="/tutorial-uso.html">Tutorial de uso del
                                     material</a></li>
-                            <li><a class="dropdown-item" href="links.html">Links de apoyo</a></li>
+                            <li><a class="dropdown-item" href="/links.html">Links de apoyo</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -68,11 +83,20 @@
 
     <!-- Contenido Principal -->
     <div class="container my-5">
-        <h1 class="text-center">Dotación superior</h1>
-        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat quibusdam vitae at aspernatur odio modi laboriosam nulla, id amet, vero, sint corporis. Dignissimos, esse eaque nihil labore possimus et.</p>
-        <div class="row justify-content-center m-4 g-4">
-            <div class="col-md-5 d-flex justify-content-center">
-                <img src="imagenes/Trastornos/negativista.webp" class="img-fluid" alt="Recurso educativo 1">
+        <!-- Título centrado -->
+        <h1 class="text-center mb-4">Situaciones de vulnerabilidad</h1>
+
+        <!-- Contenido dividido en dos columnas -->
+        <div class="row align-items-center">
+            <!-- Columna izquierda para el texto -->
+            <div class="col-md-6">
+                <p class="lead">
+                    En la actualidad, las situaciones de vulnerabilidad afectan a millones de personas en todo el mundo, generando un impacto profundo en su desarrollo individual y colectivo. Estas condiciones son el reflejo de desigualdades estructurales que limitan el acceso a derechos básicos como la educación, la salud, la vivienda digna y el empleo. Los factores que propician la vulnerabilidad son diversos y complejos, incluyendo la pobreza, la discriminación, la violencia, los desastres naturales y las migraciones forzadas. Abordar estas problemáticas no solo requiere la implementación de políticas públicas inclusivas y programas de ayuda, sino también un compromiso social para garantizar la dignidad y el bienestar de todos los individuos. Este documento busca explorar las principales situaciones de vulnerabilidad, sus causas y consecuencias, así como las posibles estrategias para prevenirlas y mitigarlas, en aras de construir una sociedad más equitativa e inclusiva.
+                </p>
+            </div>
+            <!-- Columna derecha para la imagen -->
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="/imagenes/sitvul.webp" class="img-fluid" alt="Recurso educativo 1">
             </div>
         </div>
     </div>
