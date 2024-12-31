@@ -1,20 +1,20 @@
 body {
     font-family: 'Heebo', sans-serif;
-    background-color: #ebd5d5;
+    background-color: #fbfcfc ;
 }
 
 .page-header {
-    background-color: #007bff;
+    background-color: #5dade2 ;
     color: white;
 }
 
 .navbar {
-    background-color: #5e2f6b;
+    background-color: #5dade2 ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 footer {
-    background-color: rgb(227, 205, 232);
+    background-color: rgb(253, 235, 208);
 }
 
 
@@ -57,4 +57,24 @@ blockquote {
     transform: translateY(-50%);
     z-index: 2; /* Asegura que estén visibles */
 
+}
+/* Botones */
+.container .btn {
+    background-color: #5dade2; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Animación de transición */
+}
+
+/* Efecto hover */
+.container .btn:hover {
+    background-color: #2e86c1; /* Azul más oscuro */
+    color: #f4f4f4; /* Texto más claro */
+    transform: translateY(-5px); /* Levanta el botón ligeramente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
 }
